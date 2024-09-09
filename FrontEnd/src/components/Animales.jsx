@@ -140,7 +140,7 @@ export function Animales() {
             placeholder="Ingrese el peso del animal"
           />
         </div>
-        <button type="submit" className="btn btn-primary btn-block">
+        <button type="submit" className="btn btn-info btn-block">
           {editing ? 'Editar animal' : 'Registrar animal'}
         </button>
       </form>
